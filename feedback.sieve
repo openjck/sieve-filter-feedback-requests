@@ -24,7 +24,7 @@ if header :comparator "i;unicode-casemap" :contains "Subject" ["How would you ra
 }
 
 # Subject matches.
-if header :comparator "i;unicode-casemap" :matches "Subject" ["How was your * experience?", "tell us about your * experience", "Your Voice Matters to *", "Please review *", "*, share your thoughts on", "Helen of Troy Survey *", "*, * wants to hear from you"] {
+if header :comparator "i;unicode-casemap" :matches "Subject" ["How was your * experience?", "tell us about your * experience", "Your Voice Matters to *", "Please review *", "*, share your thoughts on", "Helen of Troy Survey *", "*, * wants to hear from you", "*, please take a few moments to help"] {
   fileinto "${folder}";
 }
 
@@ -38,7 +38,7 @@ if address :all :comparator "i;unicode-casemap" :is "From" ["thankyou@getwherewo
 }
 
 # From address matches.
-if address :all :comparator "i;unicode-casemap" :matches "From" ["*@survey.*.*", "*@feedback.*.*"] {
+if address :all :comparator "i;unicode-casemap" :matches "From" ["*@survey.*.*", "*@feedback.*.*", "*@*.medallia.com"] {
   fileinto "${folder}";
 }
 
