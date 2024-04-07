@@ -53,3 +53,7 @@ if allof (header :comparator "i;unicode-casemap" :matches "Subject" "How was you
 if allof (header :comparator "i;unicode-casemap" :matches "Subject" "How's your trip going, *\\?", address :all :comparator "i;unicode-casemap" :matches "From" "*hotels.com") {
   fileinto "${folder}";
 }
+
+if allof (header :comparator "i;unicode-casemap" :matches "Subject" "How was your recent visit at *", address :all :comparator "i;unicode-casemap" :matches "From" "*birdeye.com") {
+  fileinto "${folder}";
+}
