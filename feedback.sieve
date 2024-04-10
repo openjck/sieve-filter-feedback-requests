@@ -19,7 +19,7 @@ if header :comparator "i;unicode-casemap" :is "Subject" ["Tell us how we did", "
 }
 
 # Subject contains.
-if header :comparator "i;unicode-casemap" :contains "Subject" ["How would you rate the support you received?", "Would you say you like us, or LIKE LIKE us?", "Share Your Feedback", "Your Recent Support Request"] {
+if header :comparator "i;unicode-casemap" :contains "Subject" ["How would you rate the support you received?", "Would you say you like us, or LIKE LIKE us?", "Share Your Feedback", "Your Recent Support Request", "Please tell us about your experience"] {
   fileinto "${folder}";
 }
 
