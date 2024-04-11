@@ -7,7 +7,7 @@ if allof (environment :matches "vnd.proton.spam-threshold" "*", spamtest :value 
 }
 
 # This is the folder that matching messages should be filtered into.
-set "folder" "Bulk";
+set "folder" "Filtered out";
 
 ################################################################################
 # Subject filters
