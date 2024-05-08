@@ -110,3 +110,12 @@ if allof (
 ) {
   fileinto "${folder}";
 }
+
+if allof (
+  header :comparator "i;unicode-casemap"
+         :matches "Subject" "Regarding Your Recent *",
+  header :comparator "i;unicode-casemap"
+         :matches "Subject" "* Experience"
+) {
+  fileinto "${folder}";
+}
