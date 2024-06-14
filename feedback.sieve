@@ -76,7 +76,8 @@ if address :all :comparator "i;unicode-casemap" :is "From" [
 if address :all :comparator "i;unicode-casemap" :matches "From" [
   "*@survey.*.*",
   "*@feedback.*.*",
-  "*@*.medallia.com"
+  "*@*.medallia.com",
+  "*@invites.listen360.com"
 ] {
   fileinto "${folder}";
 }
