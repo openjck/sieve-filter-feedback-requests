@@ -33,7 +33,8 @@ if header :comparator "i;unicode-casemap" :is "Subject" [
   "What do you think about your recent order?",
   "How was our store today?",
   "Thank you for joining us! What’s next?",
-  "Mind answering a quick question?"
+  "Mind answering a quick question?",
+  "How happy were you with our service?"
 ] {
   fileinto "${folder}";
 }
