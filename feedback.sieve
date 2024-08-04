@@ -45,7 +45,8 @@ if header :comparator "i;unicode-casemap" :contains "Subject" [
   "Would you say you like us, or LIKE LIKE us?",
   "Share Your Feedback",
   "Your Recent Support Request",
-  "Please tell us about your experience"
+  "Please tell us about your experience",
+  "Your opinion is important to us!`"
 ] {
   fileinto "${folder}";
 }
@@ -61,7 +62,8 @@ if header :comparator "i;unicode-casemap" :matches "Subject" [
   "*, * wants to hear from you",
   "*, please take a few moments to help",
   "*love to hear about your * experience*",
-  "Your opinion * to us!"
+  "Your opinion * to us!",
+  "Please rate your recent *"
 ] {
   fileinto "${folder}";
 }
