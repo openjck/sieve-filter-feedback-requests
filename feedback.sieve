@@ -64,7 +64,8 @@ if header :comparator "i;unicode-casemap" :matches "Subject" [
   "*love to hear about your * experience*",
   "Your opinion * to us!",
   "Please rate your recent *",
-  "How satisfied are you with *"
+  "How satisfied are you with *",
+  "We'd love feedback *"
 ] {
   fileinto "${folder}";
 }
