@@ -75,6 +75,7 @@ if header :comparator "i;unicode-casemap" :matches "Subject" [
   "Tell us what you think about *",
   "*how did * do?*",
   "How are you feeling about*"
+  "Regarding Your Recent * Experience"
 ] {
   fileinto "${folder}";
 }
@@ -127,15 +128,6 @@ if allof (
          :matches "Subject" "How was your recent visit at *",
   address :all :comparator "i;unicode-casemap"
           :matches "From" "*birdeye.com"
-) {
-  fileinto "${folder}";
-}
-
-if allof (
-  header :comparator "i;unicode-casemap"
-         :matches "Subject" "Regarding Your Recent *",
-  header :comparator "i;unicode-casemap"
-         :matches "Subject" "* Experience"
 ) {
   fileinto "${folder}";
 }
