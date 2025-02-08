@@ -73,7 +73,8 @@ if header :comparator "i;unicode-casemap" :matches "Subject" [
   "How would you rate *",
   "Tell us about your *",
   "Tell us what you think about *",
-  "*how did * do?*"
+  "*how did * do?*",
+  "How are you feeling about*"
 ] {
   fileinto "${folder}";
 }
