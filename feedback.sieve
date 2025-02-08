@@ -60,7 +60,7 @@ if header :comparator "i;unicode-casemap" :matches "Subject" [
   "How was your * experience?",
   "Your voice matters to *",
   "Please review*purchase*",
-  "*, share your thoughts on",
+  "*, share your thoughts on*",
   "Helen of Troy Survey *",
   "*, * wants to hear from you",
   "*, please take a few moments to help",
