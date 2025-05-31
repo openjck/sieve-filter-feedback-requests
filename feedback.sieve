@@ -58,7 +58,8 @@ if header :comparator "i;unicode-casemap" :contains "Subject" [
   "How likely are you to recommend", # Less, now.
   "Tell Us About Your Recent Purchase", # No.
   "Your Voice Matters", # This voice is telling you to go away.
-  "we'd still love to hear from you" # I'd still love you to leave me alone.
+  "we'd still love to hear from you", # I'd still love you to leave me alone.
+  "give us your feedback" # Give me a break.
 ] {
   fileinto "${folder}";
 }
@@ -106,7 +107,8 @@ if address :all :comparator "i;unicode-casemap" :matches "From" [
   "*@survey.*.*",
   "*@feedback.*.*",
   "*@*.medallia.com",
-  "*@invites.listen360.com"
+  "*@invites.listen360.com",
+  "*@qualtrics-survey.com"
 ] {
   fileinto "${folder}";
 }
