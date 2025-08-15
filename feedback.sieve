@@ -102,6 +102,11 @@ if header :comparator "i;unicode-casemap" :matches "Subject" [
 ################################################################################
 
 # From address is exactly.
+#
+# These may seem overly specific, but, when possible, I'd like to avoid
+# filtering out meaningful emails, like emails about one's own account (e.g.,
+# one's own Survey Monkey account) or emails from hiring staff, for people who
+# intend to apply to these companies.
 if address :all :comparator "i;unicode-casemap" :is "From" [
   "thankyou@getwherewolf.com",
   "member@surveymonkeyuser.com"
