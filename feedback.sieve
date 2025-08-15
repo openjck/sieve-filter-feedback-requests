@@ -103,7 +103,8 @@ if header :comparator "i;unicode-casemap" :matches "Subject" [
 
 # From address is exactly.
 if address :all :comparator "i;unicode-casemap" :is "From" [
-  "thankyou@getwherewolf.com"
+  "thankyou@getwherewolf.com",
+  "member@surveymonkeyuser.com"
 ] {
   fileinto "${folder}";
 }
