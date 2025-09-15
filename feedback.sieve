@@ -41,7 +41,7 @@ if header :comparator "i;unicode-casemap" :is "Subject" [
 
 # Subject contains.
 if header :comparator "i;unicode-casemap" :contains "Subject" [
-  "How would you rate the support you received?",
+  "How would you rate",
   "Would you say you like us, or LIKE LIKE us?",
   "Share Your Feedback",
   "Your Recent Support Request",
