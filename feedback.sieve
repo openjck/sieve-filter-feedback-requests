@@ -26,9 +26,7 @@ set "folder" "Filtered out";
 
 # Subject is exactly.
 if header :comparator "i;unicode-casemap" :is "Subject" [
-  "Tell us how we did",
   "How did we do?",
-  "How was your stay?",
   "Media Usage Survey",
   "What do you think about your recent order?",
   "How was our store today?",
@@ -41,6 +39,8 @@ if header :comparator "i;unicode-casemap" :is "Subject" [
 
 # Subject contains.
 if header :comparator "i;unicode-casemap" :contains "Subject" [
+  "Tell us how we did",
+  "How was your stay",
   "How would you rate",
   "Would you say you like us, or LIKE LIKE us?",
   "Share Your Feedback",
