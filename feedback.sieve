@@ -74,7 +74,8 @@ if header :comparator "i;unicode-casemap" :contains "Subject" [
   "Tell us your thoughts", # No.
   "How was your experience", # Worse now.
   "Your Recent Experience", # My recent annoyance.
-  "Let us know your thoughts!" # Let me know when you'll stop annoying me.
+  "Let us know your thoughts!", # Let me know when you'll stop annoying me.
+  "help us with your feedback" # Help me by leaving me alone.
 ] {
   fileinto "${folder}";
 }
