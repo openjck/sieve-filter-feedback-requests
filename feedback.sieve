@@ -53,30 +53,30 @@ if header :comparator "i;unicode-casemap" :contains "Subject" [
   "How do you like",
   "we'd like to hear from you",
   "Share Your Thoughts",
-  "We need your feedback", # No you most certainly don't.
-  "Review your purchase", # Wasn't paying for it enough?
-  "How likely are you to recommend", # Less, now.
-  "Tell Us About Your Recent Purchase", # No.
-  "Your Voice Matters", # This voice is telling you to go away.
-  "we'd still love to hear from you", # I'd still love you to leave me alone.
-  "give us your feedback", # Give me a break.
-  "Your feedback matters", # My time matters.
-  "Help shape", # Help unburden.
-  "we want to hear from you", # I want you to leave me alone.
-  "what you think", # I think your email is annoying.
-  "How was your recent call", # Better than this email.
-  "Tell us how you like", # I like being left alone.
-  "feedback is important", # My time is important.
-  "How did you like", # I liked it more than this email.
-  "tell us about", # No.
-  "Your Opinion Matters", # In my opinion, your emails are annoying.
-  "review us", # Here's my review: you're annoying.
-  "Would Like Your Opinion", # Would like you to leave me alone.
-  "Tell us your thoughts", # No.
-  "How was your experience", # Worse now.
-  "Your Recent Experience", # My recent annoyance.
-  "Let us know your thoughts!", # Let me know when you'll stop annoying me.
-  "help us with your feedback", # Help me by leaving me alone.
+  "We need your feedback",
+  "Review your purchase",
+  "How likely are you to recommend",
+  "Tell Us About Your Recent Purchase",
+  "Your Voice Matters",
+  "we'd still love to hear from you",
+  "give us your feedback",
+  "Your feedback matters",
+  "Help shape",
+  "we want to hear from you",
+  "what you think",
+  "How was your recent call",
+  "Tell us how you like",
+  "feedback is important",
+  "How did you like",
+  "tell us about",
+  "Your Opinion Matters",
+  "review us",
+  "Would Like Your Opinion",
+  "Tell us your thoughts",
+  "How was your experience",
+  "Your Recent Experience",
+  "Let us know your thoughts!",
+  "help us with your feedback",
   "Take our Quick Survey"
 ] {
   fileinto "${folder}";
