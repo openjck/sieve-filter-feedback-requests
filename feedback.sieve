@@ -131,8 +131,8 @@ if address :all :comparator "i;unicode-casemap" :is "From" [
 # From address matches.
 if address :all :comparator "i;unicode-casemap" :matches "From" [
   "reviews@*",
-  "*@survey.*.*",
-  "*@feedback.*.*",
+  "*@survey.*",
+  "*@feedback.*",
   "*@*.medallia.com",
   "*@invites.listen360.com",
   "*@qualtrics-survey.com"
